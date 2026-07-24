@@ -1,7 +1,27 @@
 aid: cdhot
-name: cdhot
-description: cdhot is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cdhot.png
+name: cdhot (Hot New Energy Technology)
+description: cdhot (Hot New Energy Technology) is a Chinese industrial energy-efficiency
+  company listed in the Qiming Venture Partners portfolio. Qiming describes the company
+  as providing EPC (engineering, procurement and construction) and EMC (energy management
+  contracting) services to industrial customers to achieve waste heat recovery — capturing
+  surplus process heat from industrial operations and converting it into reusable
+  energy. The company is an engineering and energy-services business rather than a
+  software or API provider. As of the July 2026 enrichment pass its published website
+  at cdhot.cc did not resolve over HTTPS, redirected to www.cdhot.cc over HTTP and
+  returned an empty HTTP 404, and no developer portal, documentation, specification,
+  or API surface of any kind could be found.
 url: https://raw.githubusercontent.com/api-evangelist/cdhot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,25 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-website-status:
+  url: http://www.cdhot.cc/
+  https: false
+  http_status: 404
+  probed: '2026-07-20'
+  note: Domain resolves (201.5.238.244, nginx) but serves no content; no HTTPS listener,
+    no MX, no SPF/DMARC/TXT records.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Energy Efficiency
+- Waste Heat Recovery
+- Industrial
+- Cleantech
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cdhot.cc
+  url: http://www.cdhot.cc/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
