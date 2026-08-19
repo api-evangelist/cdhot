@@ -37,7 +37,7 @@ x-website-status:
   probed: '2026-07-20'
   note: Domain resolves (201.5.238.244, nginx) but serves no content; no HTTPS listener,
     no MX, no SPF/DMARC/TXT records.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
